@@ -1,0 +1,68 @@
+.container{
+	 		width: 600px;
+	 		height: 600px;
+	 		margin: 20px auto;
+	 		padding: auto;
+	 		border: 5px solid #ffffa5;
+	 		background: #e23;
+
+	 	}
+	     .prize_info{
+	     	margin-top: 20px;
+	     	height: 40px;
+	     	text-align: center;
+	     	font-size: 24px;
+	     	font-family: "microsoft yahei";
+	     	font-weight: 600;
+	     	line-height: 40px;
+	     	color:#fff;
+	     	    }
+	     #prize{
+	 		border: none;
+	 		width: 60px;
+	 		height: 60px;
+	 		left:45px;
+	 		top: 45px;
+	 		border-radius: 80px;	 		
+	 		background-color: transparent;
+	 		outline: none;
+	 		position: absolute;
+	 		color: #fff;
+	 		font-size: 1em;
+	 		font-family: "arial"
+
+	 	}
+	 	.prize_box{
+	 		margin: 50px auto;
+	 		width: 450px;
+	 		height: 450px;	 	
+	 		font-size: 16px;
+	 		line-height: 16px;
+	 		font-family: "microsoft yahei";
+	 		color: #fff;	
+	 	}
+	 	.prize_box li{
+	 		display: block;
+	 		float: left;
+	 		width: 143px;
+	 		height: 143px;
+	 		line-height: 144px;
+	 		text-align: center;
+	 		border: 3px solid #fff;
+	 		background-color: #f0f;
+	 		color: #fff;
+	 		margin-left: 1px;
+	 		margin-top: 1px;
+	 		position: relative;
+	 		font-size: 1.2em;
+	 	}
+	 	.prize_box li.on{
+	 		background-color: #f00;
+	 		color:#ff0;
+	 	}
+	 	#canvas{
+	 		
+	 		width: 150px;
+	 		height: 150px;
+	 		
+	 	}
