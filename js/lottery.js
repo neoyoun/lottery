@@ -36,11 +36,11 @@ var prizeList = document.getElementsByTagName('li'),
 			ctx.fill();
 			ctx.restore();
 		}
-			
+		/* 开始动画 */	
 		function lottery() {
 			clearInterval(time)
 			
-			var luckyNum ,priceNum=0;
+			var luckyNum=0 ,priceNum=0;
 			var v = 200,rot=0;
 			time = setInterval(function () {
 				for (i = 0; i < prizeList.length; i++) {
